@@ -1,0 +1,25 @@
+
+.about-section{
+    position: absolute;
+    top: 300%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:140px;
+    z-index: -1;
+    margin-top: 180px;
+    color:#4b5056;
+    
+}
+
+.about-section h4{
+    line-height:30px;
+    margin-bottom:50px;
+}
+
+.about-img{
+    margin-left: 0;
+}
+
+.about-text p{
+    font-size:1.2rem;
+}

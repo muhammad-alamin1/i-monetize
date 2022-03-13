@@ -1,0 +1,48 @@
+.contact-us{
+    position: absolute;
+    top: 400%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:140px;
+    z-index: -1;
+    background: url("../../images/bg-contacts.jpg") no-repeat ;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    
+}
+
+.contact-from{
+    margin: 100px auto;
+    background-color: #ffffff;
+    width: 60%;
+    height:80%;
+    border-radius: 10px;
+}
+
+.contact-from h1, h5{
+    color: #4b5056;
+    
+}
+
+#contact-form{
+    width:70%;
+    margin:0 auto;
+
+}
+
+#submit-btn{
+    width:150px;
+    height:75px;
+    background-color:#64bf1b;
+    border:1px solid #64bf1b;
+    color:#fff;
+    font-size:1.2rem;
+    border-radius: 10px;
+    font-weight:bold;
+}
+
+.recaptcha{
+    margin-top:50px;
+
+}

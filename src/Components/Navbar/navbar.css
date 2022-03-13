@@ -1,0 +1,31 @@
+.nav-menu{
+    background-color: #1e232d;
+    padding:15px;
+    position:fixed;
+    width:100%;
+}
+
+.logo img{
+    padding-top: 8px;
+}
+
+.nav-menu ul{
+    margin: 0 auto;
+}
+.nav-menu ul li{
+    list-style: none;
+}
+
+.nav-menu ul li a{
+    font-size:1rem;
+    text-transform: uppercase;
+}
+
+.nav-menu ul li:hover a{
+    color: #00a3d3 !important;
+}
+
+.authentication {
+    text-align: right;
+}
+

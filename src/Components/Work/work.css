@@ -1,0 +1,26 @@
+.work{
+    position: absolute;
+    top: 120%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top:140px;
+    z-index: -1;
+}
+
+.work h1{
+    color:#4b5056;
+}
+
+.work h4{
+    color:#656c71;
+    margin-top:20px;
+    margin-bottom: 80px;
+}
+
+.distribution h5, .optimization h5, .optimization h5, .promotional h5{
+    font-size:1.5rem;
+}
+
+.distribution h6, .optimization h6, .Performance h6, .promotional h6{
+    font-size:1.2rem;
+}

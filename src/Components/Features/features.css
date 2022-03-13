@@ -1,0 +1,124 @@
+.features{
+    position: absolute;
+    top: 230%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+    background: url("../../images/bg-awesome.jpg") no-repeat ;
+    width: 100%;
+    height: 100%;
+}
+
+.features-header{
+    color: #fff;
+    margin-top: 80px; 
+    margin-bottom: 100px;
+}
+
+.single-item{
+    width: 100px;
+    text-align: center;
+
+}
+
+.icon {
+    border: 2px solid #fff;
+    text-align: center;
+    border-radius:50%;
+    background-color: #fff;
+}
+
+.icon img{
+    display: block;
+    width: 100px;
+    height: 100px;    
+    padding:20px;
+    
+}
+
+.features-list{
+    width:90%;
+    margin: 0 auto;
+}
+
+.features ul li{
+    list-style: none;
+    margin-right: 90px;
+
+}
+
+.icon-title{
+    color:#fff;
+}
+
+.single-item .icon2::after{
+    right: 1025px;
+    
+}
+
+.single-item .icon3::after{
+    right: 830px;
+    
+}
+
+.single-item .icon4::after{
+    right: 635px;
+    
+}
+
+.single-item .icon5::after{
+    right: 440px;
+    
+}
+
+.single-item .icon6::after{
+    right: 245px;
+    
+}
+
+.speech-bubble, .speech-bubble2, .speech-bubble3, .speech-bubble4{
+    position: relative;
+	background: rgba(153, 150, 150, 0.746);
+	border-radius: .4em;
+    width:250px ;
+    height:120px;
+    margin-top:30px;
+    z-index: 1;
+}
+
+.speech-bubble p, .speech-bubble2 p, .speech-bubble3 p, .speech-bubble4 p{
+    font-size:1.2rem;
+    font-weight:600;
+    color:#fff;
+    padding: 20px;
+    transition: 2s;
+
+}
+
+
+.speech-bubble::after, .speech-bubble2::after, .speech-bubble3::after, .speech-bubble4::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left:23%;
+	width: 0;
+	height: 0;
+	border: 19px solid transparent;
+	border-bottom-color: rgba(153, 150, 150, 0.746);
+	border-top: 0;
+	margin-left: -19px;
+	margin-top: -19px;
+    
+}
+
+.single-item .speech-bubble, .single-item .speech-bubble2, .single-item .speech-bubble3, .single-item .speech-bubble4 {
+    display: none;
+    
+
+}  
+
+.single-item:hover .speech-bubble , .single-item:hover .speech-bubble2, .single-item:hover .speech-bubble3, .single-item:hover .speech-bubble4{
+    display: block;
+    
+} 
+
